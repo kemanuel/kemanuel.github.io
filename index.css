@@ -6,11 +6,6 @@
 	height: 25px;
 }
 
-#bar a:visited, #nav a:link {
-	text-decoration:none;
-	color:white;
-}
-
 #bar {
 	margin: 0 10px;
 }
@@ -34,33 +29,37 @@
 .box {
 	background:#f7f7f7;
 	border:1px solid #f0e9eb;
+}
+
+.box a {
+	color: blue;
+	text-decoration: none;
+}
+
+.box2 {
+	background:#f7f7f7;
+	border:1px solid #f0e9eb;
 	padding:15px;
 }
 
-.sidebar {
-	/*width:218px;
-	margin:0 auto;*/
-	/*padding:10px 25px;*/
-	/*padding-left: 600px;*/
-	/*background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;*/
-}
-
-/*#right-column {
-	width:270px;
-	float:right;
-}*/
-
-.contain {
-	/*display: flex;*/
-	/*align-items: center;*/
-	/*justify-content: center;*/
-}
-
-#logo {
-	margin-bottom:20px;
-	font:normal 21px Georgia, serif;
-	color:black;
+.contain{
+	margin-bottom: 20px;
+	font: normal 21px Georgia, serif;
+	color: black;
 	padding-top: 15px;
 	padding-left: 25px;
-	align-content: center;
+}
+
+.bar2 a {
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+	font-size: 18px;
+}
+
+.sidebar {
+	width: 218px;
+	margin:0 auto;
+	padding: 10px 25px;
+	background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
 }
