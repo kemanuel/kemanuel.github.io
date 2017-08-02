@@ -23,7 +23,7 @@
 #left-column {
 	width:300px;
 	padding:0 30px 30px;
-	float:left;
+	justify-content: center;
 }
 
 .box {
@@ -40,14 +40,16 @@
 	background:#f7f7f7;
 	border:1px solid #f0e9eb;
 	padding:15px;
+	float: left;
 }
 
 .contain{
 	margin-bottom: 20px;
-	font: normal 21px Georgia, serif;
+	font: normal 29px Georgia, serif;
 	color: black;
 	padding-top: 15px;
-	padding-left: 25px;
+	display: flex;
+	justify-content: center;
 }
 
 .bar2 a {
@@ -59,7 +61,6 @@
 
 .sidebar {
 	width: 218px;
-	margin:0 auto;
 	padding: 10px 25px;
-	background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
+	float: right;
 }
