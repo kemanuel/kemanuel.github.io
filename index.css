@@ -87,3 +87,19 @@ body{
 .skill{
 	margin-left: 200px;
 }
+
+.flex-test{
+	float: left;
+}
+
+.south a{
+margin: 30px;
+}
+
+.north a{
+margin: 30px;
+}
+
+.east a{
+margin: 30px;
+}
