@@ -1,9 +1,9 @@
 #bar {
-	background:#06a;
+	background: #4080bf;
 	padding:10px 20px;
 	text-align:right;
 	color:#f6dde3;
-	height: 25px;
+	height: 35px;
 }
 
 #bar {
@@ -20,14 +20,8 @@
 	margin:0 auto;
 }
 
-#left-column {
-	width:300px;
-	padding:0 30px 30px;
-	justify-content: center;
-}
-
 .box {
-	background:#f7f7f7;
+	background: lightgray;
 	border:1px solid #f0e9eb;
 }
 
@@ -37,19 +31,18 @@
 }
 
 .box2 {
-	background:#f7f7f7;
-	border:1px solid #f0e9eb;
-	padding:15px;
-	float: left;
+	background: #ebebe0;
+	border:solid 2px, #f0e9eb;
+	border-top: 10px;
+	border-bottom: 10px;
+	height: 130px;
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
 }
 
 .contain{
-	margin-bottom: 20px;
-	font: normal 29px Georgia, serif;
-	color: black;
-	padding-top: 15px;
-	display: flex;
-	justify-content: center;
+  font: 29px Helvetica,sans-serif;
 }
 
 .bar2 a {
@@ -63,4 +56,34 @@
 	width: 218px;
 	padding: 10px 25px;
 	float: right;
+}
+
+.sidebar2 {
+	float: right;
+}
+
+.bar2{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+body{
+	background: linear-gradient(to bottom right, white, gray);
+}
+
+.goal{
+	margin-left: 200px;
+}
+
+.education{
+	margin-left: 170px;
+}
+
+.experience{
+	margin-left: 170px;
+}
+
+.skill{
+	margin-left: 200px;
 }
