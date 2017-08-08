@@ -21,7 +21,7 @@
 }
 
 .box {
-	background: #ebebe0;
+	background: lightgray;
 	border:1px solid #f0e9eb;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .box2 {
-	background: #ebebe0;
+	background: lightgrey;
 	border:solid 2px, #f0e9eb;
 	border-top: 10px;
 	border-bottom: 10px;
